@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dance Form</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body{
+      font-family: georgia, serif;
+      background-image: url(download44.jpg);
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+    }
+
+    .container,
+    .form-control,
+    .form-check,
+    .col, select{ 
+      border-radius: 7px;
+    } 
+
+    .form-check input[type="checkbox"],
+    .form-check input[type="radio"]{
+      border-radius: 7px; 
+    }
+
+    .container{
+      padding: 20px; 
+      border-radius: 10px;
+      background-color: #98bad580;
+    }
+
+    .btn-secondary{
+      background-color:   #b2cbde80; color: #304674;"
+  </style>
+</head>
+
+<body>
+      <div class="container mt-5">
+        <h1 class="mb-4 text-center"> ✧˖°.🎧 Dance Club Fill Out Form 🎧.°˖✧</h1>
+      <div>
+        <form>
+          <div class="row mb-3">
+            <div class="col col-md-6 form-group">
+              <label for="exampleName">Name</label>
+              <input type="name" class="form-control" id="exampleName" placeholder="Please type your FULLNAME here...">
+            </div>
+            <div class="col col-md-6 form-group">
+              <label for="exampleAge">Age</label>
+              <input type="age" class="form-control" id="exampleAge" placeholder="Please type your AGE here...">
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <div>
+        <form>
+          <div class="row mb-3">
+            <div class="col col-md-6 form-group">
+              <label for="exampleEmail">Email Address</label>
+              <input type="email" class="form-control" id="exampleEmail" placeholder="Please type your EMAIL ADDRESS here...">
+            </div>
+            <div class="col col-md-6 form-group">
+              <label for="examplePhonenumber">Phone Number</label>
+              <input type="Phonenumber" class="form-control" id="examplePhonenumber" placeholder="Please type your PHONE NUMBER here...">
+            </div>
+          </div>
+
+      <div class="container mt-5">
+        <h3>Preffered Dance Type</h3>
+        <div class="form-check mb-3" id="exampleCheck1">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Hip Hop</label>
+        </div>
+        <div class="form-check mb-3" id="exampleCheck2">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck2">Ballet</label>
+        </div>
+        <div class="form-check mb-3" id="exampleCheck3">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck3">Creative Dance</label>
+        </div>
+      </div>
+
+      <div class="container mt-5">
+        <h3> Dancing Experience Level</h3>
+        <div class="form-check mb-3" id="exampleCheck1">
+          <input type="radio" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Beginner</label>
+        </div>
+        <div class="form-check mb-3" id="exampleCheck2">
+          <input type="radio" class="form-check-input" id="exampleCheck2">
+          <label class="form-check-label" for="exampleCheck2">Intermediate</label>
+        </div>
+        <div class="form-check mb-3" id="exampleCheck3">
+          <input type="radio" class="form-check-input" id="exampleCheck3">
+          <label class="form-check-label" for="exampleCheck3">Advanced</label>
+        </div>
+      </div>
+
+      <div class="container mt-5">
+        <h3>Preffered Dance Projects</h3>
+        <div>
+        <label class="exampleProject" for="exampleProject"></label>
+        <select id="select" name="select">
+                  <option value="୨୧ Projects ୨୧">Pick Here</option>
+                  <option value="Smart Cleaning Robot">Dance Competitions</option>
+                  <option value="Chess Playing Robot">Freestyle Dance Show</option>
+                  <option value="Obstacle Avoiding Robot">School Shows</option>
+                  <option value="Pick up and Place Robot">Mall Shows</option>
+              </select>
+            </div>
+          </div>
+
+      <div class="container mt-5">
+        <h3>Statement of Interest</h3>
+        <textarea class="col" style="padding: 25px;" placeholder="Type your STATEMENT OF INTEREST here..."></textarea>
+      </div> <br>
+        <button type="submit" class="btn btn-secondary">Submit</button>
+        </form>
+      </div>
+
+      </div>
+    <br>
+  <br>
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
